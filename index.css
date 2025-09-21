@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#holder {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+#header ul li a:hover {
+    background-color: #555;
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 280px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.sidebar-box {
+    margin-bottom: 20px;
+}
+
+.sidebar-box h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.sidebar-box form label,
+.sidebar-box form input,
+.sidebar-box form select {
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.sidebar-box form input[type="text"],
+.sidebar-box form select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sidebar-box form input[type="submit"],
+.sidebar-box form input[type="reset"] {
+    width: auto;
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.sidebar-box form input[type="reset"] {
+    background-color: #666;
+}
+
+.content-section {
+    flex: 2;
+    padding: 15px;
+    margin: 10px;
+}
+
+.content-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.room-type {
+    border-radius: 5px;
+    height: 160px;
+    margin-bottom: 20px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.room-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.room-info button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #ffc107;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+/* Room Images */
+#a { background-image: url('images/ac_single.jpg'); }
+#b { background-image: url('images/ac_double.jpg'); }
+#c { background-image: url('images/a1.jpg'); }
+#a2 { background-image: url('images/a2.jpg'); }
+#b2 { background-image: url('images/a1.jpg'); }
+#c2 { background-image: url('images/ac_double.jpg'); }
+
+#offers {
+    background-color: #eef;
+}
+
+.offer-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}

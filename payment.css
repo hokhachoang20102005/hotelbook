@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#holder {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+#header ul li a:hover {
+    background-color: #555;
+}
+
+#payment-container {
+    padding: 40px 20px;
+    background: url(images/11.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#payment-container h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+#payment-form-box {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#payment-form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+#payment-form-box label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+#payment-form-box input[type="text"],
+#payment-form-box input[type="password"],
+#payment-form-box select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.expiry-date-group {
+    display: flex;
+    gap: 10px;
+}
+
+.expiry-date-group select {
+    flex: 1;
+}
+
+.form-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-buttons input {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.form-buttons input[type="submit"] {
+    background-color: #28a745;
+}
+
+.form-buttons input[type="reset"] {
+    background-color: #6c757d;
+}
